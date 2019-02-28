@@ -22,7 +22,7 @@ class HistoryViewController: UIViewController,UITableViewDataSource,UITableViewD
         let guess = Guesser.shared
         let cell = tableView.dequeueReusableCell(withIdentifier: "guesser")!
         cell.textLabel?.text = "Correct Answer: \(guess.guess(index:indexPath.row).correctAnswer) "
-        cell.detailTextLabel?.text = "#Attempst: \(guess.guess(index: indexPath.row).numAttemptsRequired)"
+        cell.detailTextLabel?.text = "#Attempts: \(guess.guess(index: indexPath.row).numAttemptsRequired)"
         return cell
     }
     
