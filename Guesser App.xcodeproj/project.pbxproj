@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		353A4F0922273613002E53BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F0822273613002E53BC /* AppDelegate.swift */; };
-		353A4F0B22273613002E53BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F0A22273613002E53BC /* FirstViewController.swift */; };
-		353A4F0D22273613002E53BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F0C22273613002E53BC /* SecondViewController.swift */; };
+		353A4F0B22273613002E53BC /* GuesserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F0A22273613002E53BC /* GuesserViewController.swift */; };
+		353A4F0D22273613002E53BC /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F0C22273613002E53BC /* HistoryViewController.swift */; };
 		353A4F1022273613002E53BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A4F0E22273613002E53BC /* Main.storyboard */; };
 		353A4F1222273614002E53BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 353A4F1122273614002E53BC /* Assets.xcassets */; };
 		353A4F1522273614002E53BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 353A4F1322273614002E53BC /* LaunchScreen.storyboard */; };
 		353A4F2022273614002E53BC /* Guesser_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F1F22273614002E53BC /* Guesser_AppTests.swift */; };
 		353A4F2B22273614002E53BC /* Guesser_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F2A22273614002E53BC /* Guesser_AppUITests.swift */; };
+		353A4F39222756C0002E53BC /* Guesser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F38222756C0002E53BC /* Guesser.swift */; };
+		353A4F3B222758B5002E53BC /* StatisticViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A4F3A222758B5002E53BC /* StatisticViewContoller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,8 @@
 /* Begin PBXFileReference section */
 		353A4F0522273613002E53BC /* Guesser App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guesser App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A4F0822273613002E53BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		353A4F0A22273613002E53BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		353A4F0C22273613002E53BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		353A4F0A22273613002E53BC /* GuesserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuesserViewController.swift; sourceTree = "<group>"; };
+		353A4F0C22273613002E53BC /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		353A4F0F22273613002E53BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		353A4F1122273614002E53BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		353A4F1422273614002E53BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,8 @@
 		353A4F2622273614002E53BC /* Guesser AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guesser AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		353A4F2A22273614002E53BC /* Guesser_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser_AppUITests.swift; sourceTree = "<group>"; };
 		353A4F2C22273614002E53BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		353A4F38222756C0002E53BC /* Guesser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guesser.swift; sourceTree = "<group>"; };
+		353A4F3A222758B5002E53BC /* StatisticViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewContoller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				353A4F0822273613002E53BC /* AppDelegate.swift */,
-				353A4F0A22273613002E53BC /* FirstViewController.swift */,
-				353A4F0C22273613002E53BC /* SecondViewController.swift */,
+				353A4F0A22273613002E53BC /* GuesserViewController.swift */,
+				353A4F38222756C0002E53BC /* Guesser.swift */,
+				353A4F0C22273613002E53BC /* HistoryViewController.swift */,
 				353A4F0E22273613002E53BC /* Main.storyboard */,
+				353A4F3A222758B5002E53BC /* StatisticViewContoller.swift */,
 				353A4F1122273614002E53BC /* Assets.xcassets */,
 				353A4F1322273614002E53BC /* LaunchScreen.storyboard */,
 				353A4F1622273614002E53BC /* Info.plist */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353A4F0D22273613002E53BC /* SecondViewController.swift in Sources */,
+				353A4F0D22273613002E53BC /* HistoryViewController.swift in Sources */,
 				353A4F0922273613002E53BC /* AppDelegate.swift in Sources */,
-				353A4F0B22273613002E53BC /* FirstViewController.swift in Sources */,
+				353A4F39222756C0002E53BC /* Guesser.swift in Sources */,
+				353A4F0B22273613002E53BC /* GuesserViewController.swift in Sources */,
+				353A4F3B222758B5002E53BC /* StatisticViewContoller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
